@@ -3,10 +3,6 @@ package com.bigdata.kafka;
 import java.io.IOException;
 import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
 public class App {
 	public static void main(String[] args) throws IOException {
 		KafkaProd x = new KafkaProd();
@@ -20,6 +16,5 @@ public class App {
 			x.Produce(data);
 		}
 
-		// x.Produce(args[0]);
 	}
 }
